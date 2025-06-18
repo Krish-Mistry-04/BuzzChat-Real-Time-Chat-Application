@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #ffffff, #53a1de);
+    background-attachment: fixed; /* ✅ Fixes the background in place */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+.container{
+    max-width: 955px;
+    padding: 25px;
+    overflow-y: auto;
+    height: 55vh;
+    margin-bottom: 26px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: auto;
+    height: 60vh;
+}
+
+.message{
+    background-color: rgb(212, 210, 210);
+    width: 24%;
+    padding: 10px;
+    margin: 15px 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+    align-self: flex-start;
+    background-color: #f1f0f0;
+    color: #333;
+}
+
+.right{
+    float: right;
+    clear: both;
+    align-self: flex-end;
+    background-color: #6c63ff;
+    color: #fff;
+}
+
+#send-container{
+    margin-top: 20px;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+#messageInp{
+    width: 88%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 17px;
+    margin: 15px 10px;
+}
+
+.btn {
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #554de2;
+}
+
+.typing {
+    font-style: italic;
+    color: gray;
+    margin: 10px 12px;
+    clear: both;
+} 
