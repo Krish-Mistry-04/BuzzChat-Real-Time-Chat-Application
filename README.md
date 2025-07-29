@@ -9,7 +9,7 @@ BuzzChat is a simple, real-time chat application built using **Node.js** and **S
 - Real-time messaging with Socket.IO
 - Responsive and clean UI with HTML, CSS
 - Join/leave message notifications
-- Typing indicators (if implemented)
+- Typing indicators
 - Client/server separation for scalability
 
 
